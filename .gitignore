@@ -1,0 +1,10 @@
+.vs/          # Entire Visual Studio workspace directory
+.vs/Parlestro
+*.vsidx       # Index files
+*.vsix        # Extension files (but these are different)
+*.user        # User-specific settings
+*.userosscache
+*.suo         # Solution user options
+*.user
+*.userosscache
+*.sln.docstates
