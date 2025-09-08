@@ -25,7 +25,7 @@ void GLFWError(int error, const char* description) {
 
 
 Vector2 GetWindowPosition(Dimension2 Position, BaseWindowClass Window) {
-
+    
 }
 
 

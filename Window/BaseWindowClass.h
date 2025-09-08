@@ -60,11 +60,10 @@ public:
 	void SetWidth(int Amount);
 	void SetHeight(int Amount);
 	void SetSize(int Width, int Height);
-	void SetX(int Pos);
-	void SetY(int Pos);
-	void SetPosition(int X, int Y);
+	void SetPosition(Dimension2 Position);
 	int GetPosition();
 	int GetSize();
+    BaseWindowClass* GetParent(bool Recursive);
 	static bool Initialize();
 private:
 	int Width;

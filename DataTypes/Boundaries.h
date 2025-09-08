@@ -20,11 +20,16 @@ struct Scale2 {
 	Scale2(float X, float Y);
 };
 
-using Dimension2 = variant<Vector2, Scale2>;
-
+struct Dimension2 {
+	Vector2 Offset;
+	Scale2 Scale;
+	Dimension2(Vector2 Offset, Scale2 Scale);
+	Dimension2(Vector2 Offset);
+	Dimension2(Scale2 Scale);
+};
 struct BoundaryObject {
 	Dimension2 Position;
 	Dimension2 Size;
 	BoundaryObject(Dimension2 Size);
-	BoundaryObject(Dimension2 Size, Dimension2 Position)
+	BoundaryObject(Dimension2 Size, Dimension2 Position);
 };
