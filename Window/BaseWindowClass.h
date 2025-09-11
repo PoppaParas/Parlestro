@@ -49,21 +49,21 @@ struct OpenGLConfig {
 class BaseWindowClass
 {
 public:
-	BaseWindowClass(string ID);
+	//BaseWindowClass(string ID);
 	BaseWindowClass(string ID, WindowInitConfig Config);
-	~BaseWindowClass();
+	//~BaseWindowClass();
 
 	BaseWindowClass(const BaseWindowClass&) = delete;
 
 	BaseWindowClass& operator=(const BaseWindowClass&) = delete;
 
-	void SetWidth(int Amount);
+	/*void SetWidth(int Amount);
 	void SetHeight(int Amount);
 	void SetSize(int Width, int Height);
 	void SetPosition(Dimension2 Position);
 	int GetPosition();
 	int GetSize();
-    BaseWindowClass* GetParent(bool Recursive);
+    BaseWindowClass* GetParent(bool Recursive);*/
 	static bool Initialize();
 private:
 	int Width;

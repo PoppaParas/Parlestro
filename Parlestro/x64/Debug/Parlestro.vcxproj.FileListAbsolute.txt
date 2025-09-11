@@ -1,0 +1,2 @@
+C:\Users\kyleh\source\repos\Parlestro\x64\Debug\glfw3.dll
+C:\Users\kyleh\source\repos\Parlestro\Parlestro\x64\Debug\Parlestro.vcxproj.Up2Date

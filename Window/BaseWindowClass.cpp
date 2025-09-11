@@ -26,6 +26,7 @@ void GLFWError(int error, const char* description) {
 
 Vector2 GetWindowPosition(Dimension2 Position, BaseWindowClass Window) {
     
+    return Vector2(0);
 }
 
 
@@ -95,11 +96,11 @@ void SetWindowHints(const WindowInitConfig& windowConfig) {
 BaseWindowClass::BaseWindowClass(string ID, WindowInitConfig Config) : ID(ID) {
     SetWindowHints(Config);
     // Create the window
-    
+
     GLFWwindow* window = glfwCreateWindow(
-        Config.Size::,
-        windowConfig.Height,
-        windowConfig.Title,
+        400,
+        600,
+        "Test",
         nullptr,
         nullptr
     );
